@@ -1,0 +1,13 @@
+#Methods
+#method_call_stack.rb file
+def first
+  puts "first method"
+end
+
+def second
+  first
+  puts "second method"
+end
+
+second
+puts "main method"
